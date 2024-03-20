@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Formulario from './componentes/formulario/Formulario';
+import Cabecalho from './componentes/cabecalho/Cabecalho';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Cabecalho/>
+    <h1 className={"titulo"}>Vamos começar!</h1>
+    <Formulario/>
   </React.StrictMode>,
   document.getElementById('root')
 );

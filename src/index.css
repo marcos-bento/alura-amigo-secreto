@@ -1,8 +1,13 @@
+:root{
+  --cor-azul: #4B69FD;
+  --cor-preto: #000000;
+  --cor-laranja: #FE652B;
+  --cor-amarelo: #FFF9EB;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +15,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.titulo{
+  color: var(--cor-azul);
+  font-size: 32px;
+  font-weight: bold;
 }

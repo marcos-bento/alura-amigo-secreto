@@ -1,0 +1,16 @@
+@import '../../index.css';
+.container {
+  height: 454px;
+  background-color: var(--cor-azul);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+}
+.container .container__logo {
+  background-image: url("/public/imagens/logo.png");
+  width: 351px;
+  height: 117px;
+}
+.container .container__participante {
+  z-index: 1;
+}/*# sourceMappingURL=Cabecalho.module.css.map */
