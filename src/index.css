@@ -1,24 +1,35 @@
-:root{
-  --cor-azul: #4B69FD;
-  --cor-preto: #000000;
-  --cor-laranja: #FE652B;
-  --cor-amarelo: #FFF9EB;
-}
-
-body {
-  margin: 0;
+/* src/index.css */
+html {
   font-family: 'Poppins', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  background: #4B69FD;
+  border: 2px solid black;
+  font-family: 'Poppins', sans-serif;
 }
 
-.titulo{
-  color: var(--cor-azul);
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+  max-width: 900px;
+}
+
+h2 {
+  font-weight: 600;
   font-size: 32px;
-  font-weight: bold;
+  margin-bottom: 36px;
+  color: #4B69FD;
+}
+
+ul li {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 8px 0;
 }
