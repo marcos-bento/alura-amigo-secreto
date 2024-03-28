@@ -1,10 +1,9 @@
 import React from "react"
-
-import './Card.module.css'
+import style from './Card.module.css'
 
 const Card: React.FC = ({ children }) => {
     return (
-        <div className="card">
+        <div className={style.card}>
             {children}
         </div>
     )

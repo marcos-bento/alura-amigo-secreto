@@ -1,8 +1,8 @@
-.grupo-input-btn {
+.grupo_input_btn {
   margin-bottom: 32px;
 }
 
-.grupo-input-btn input {
+.grupo_input_btn input {
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
   height: 82px;
@@ -14,11 +14,11 @@
   box-shadow: 0px 2px 0px 1px #000000;
 }
 
-.grupo-input-btn input:focus {
+.grupo_input_btn input:focus {
   outline: none;
 }
 
-.grupo-input-btn button {
+.grupo_input_btn button {
   border-top-right-radius: 45px;
   border-bottom-right-radius: 45px;
   height: 82px;
@@ -32,11 +32,11 @@
   background-color: #c4c4c4;
 }
 
-.grupo-input-btn button:hover {
+.grupo_input_btn button:hover {
   opacity: 0.8;
 }
 
-.grupo-input-btn button:disabled {
+.grupo_input_btn button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
@@ -53,14 +53,14 @@
   .alerta {
     margin: 48px 0;
   }
-  .grupo-input-btn input {
+  .grupo_input_btn input {
     display: block;
     width: 100%;
     border-radius: 45px;
     box-shadow: 0px 2px 0px 1px #000000;
     margin-bottom: 18px;
   }
-  .grupo-input-btn button {
+  .grupo_input_btn button {
     display: block;
     margin-top: 16px;
     margin: 0 auto;

@@ -1,5 +1,5 @@
 import { useRef, useState } from "react"
-import './Formulario.module.css'
+import style from './Formulario.module.css'
 import { useAdicionarParticipante } from "../../state/hook/useAdicionarParticipante"
 import { useMensagemDeErro } from "../../state/hook/useMensagemDeErro"
 
@@ -21,7 +21,7 @@ const Formulario = () => {
     }
 
     return (<form onSubmit={adicionarParticipante}>
-        <div className="grupo-input-btn">
+        <div className={style.grupo_input_btn}>
             <input
                 ref={inputRef}
                 value={nome}

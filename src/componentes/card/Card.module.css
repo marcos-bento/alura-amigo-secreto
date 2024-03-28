@@ -1,6 +1,5 @@
-@import url("../../index.css");
 .card {
-  background: var(--cor-amarelo);
+  background: #FFF9EB;
   border: 2px solid black;
   box-sizing: border-box;
   border-radius: 64px 64px 0px 0px;
