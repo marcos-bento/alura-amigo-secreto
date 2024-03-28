@@ -31,7 +31,7 @@ const Formulario = () => {
             />
             <button disabled={!nome}>Adicionar</button>
         </div>
-        {mensagemDeErro && <p className="alerta erro" role="alert">{mensagemDeErro}</p>}
+        {mensagemDeErro && <p className={`${style.alerta} ${style.erro}`} role="alert">{mensagemDeErro}</p>}
     </form>)
 }
 

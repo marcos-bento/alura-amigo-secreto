@@ -8,7 +8,7 @@ footer.sorteio {
   font-size: 25px;
 }
 
-.botao-sortear {
+.botao_sortear {
   width: 350px;
   height: 80px;
   font-size: 20px;
@@ -20,12 +20,12 @@ footer.sorteio {
   margin: 16px 0;
 }
 
-.botao-sortear:disabled {
+.botao_sortear:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
-.botao-sortear:hover {
+.botao_sortear:hover {
   background-color: #4B69FD;
 }
 
@@ -54,7 +54,7 @@ p {
   select {
     width: 100%;
   }
-  .botao-sortear {
+  .botao_sortear {
     width: 220px;
     margin: 32px 0;
   }
